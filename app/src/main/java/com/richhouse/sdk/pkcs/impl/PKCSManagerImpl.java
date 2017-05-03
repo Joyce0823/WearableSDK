@@ -54,7 +54,7 @@ public class PKCSManagerImpl implements PKCSManager {
 
     @Override
     public boolean changePin(byte pinNum, String oldPin, String newPin) throws Exception {
-        return false;
+        return false;;
     }
 
     @Override
